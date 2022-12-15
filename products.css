@@ -1,0 +1,99 @@
+body{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+#container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#advertize{
+    height: 30px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+}
+#advertize>p{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+#advertize>div{
+    margin-top: 5px;
+}
+#advertize>div:nth-child(1){
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#advertize>div>p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+/* header */
+
+#header{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#Logo{
+    width: 200px;
+    height: 75px;
+}
+#header>div{
+    margin: auto;
+}
+#header input{
+    height: 20px;
+    width: 300px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+#bagicon{
+    height: 30px;
+    width: 30px;
+}
+#header_3{
+    display: flex;
+    width: 250px;
+}
+#header_3>div{
+    margin: auto;
+}
+#header_3>div>a{
+    color: black;
+}
+#update{
+    text-align: right;
+    background-color: rgb(77, 0, 66);
+    color: rgb(240, 255, 254);
+    padding: 10px;
+}
+#update>div{
+    margin: 0px 10px 0px 0px;
+}
+#update a{
+    color: rgb(0, 0, 0);
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: rgb(43, 41, 64);
+    margin: 10px 0px 5px 0px;
+    padding: 20px;
+    color: aliceblue;
+}
+#footer>div:nth-child(1){
+    text-align: right;
+}
+#footer a{
+    color: white;
+}

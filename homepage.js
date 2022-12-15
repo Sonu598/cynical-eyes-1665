@@ -1,9 +1,20 @@
-let image=document.getElementById("slideimg");
-  function one(){
-    image.src="/limitedtimesaving.png";
+(function() {
+  var i = 0;
+  var pics = ["/limitedtimesaving.png","/last-time-gift.png"];
+  var el = document.getElementById('slideimg');
+  function flowimg() {
+    el.src = pics[i]; 
+    i = (i + 1) % pics.length;
   }
-  function two(){
-    image.src="/last-time-gift.png";
+  setInterval(flowimg, 2000);
+})();
+(function() {
+  var i = 0;
+  var banners = ["/turntemp.png","/puffy boots'.png","/simplysexy.png"];
+  var el = document.getElementById('flowbanner');
+  function flowban() {
+    el.src = banners[i]; 
+    i = (i + 1) % banners.length;
   }
-  setInterval(one,2000);
-  setInterval(two,4000);
+  setInterval(flowban, 2000);
+})();

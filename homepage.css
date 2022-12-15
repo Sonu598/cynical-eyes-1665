@@ -7,6 +7,7 @@ body{
     width: 100%;
     height: auto;
     margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #advertize{
     height: 30px;
@@ -155,11 +156,11 @@ body{
     padding: 5px;
     margin: 10px 0px 10px 0px;
 }
-#slidebanner{
+#flow{
     width: 100%;
     height: 600px;
 }
-#slidebanner img{
+#flow img{
     width: 100%;
     height: 100%;
 }
