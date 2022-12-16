@@ -7,7 +7,8 @@ body{
     width: 100%;
     height: auto;
     margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 #advertize{
     height: 30px;
@@ -62,6 +63,8 @@ body{
 }
 #header_3{
     display: flex;
+    justify-content: center;
+    align-items: right;
     width: 250px;
 }
 #header_3>div{
@@ -75,7 +78,7 @@ body{
 
 #slide{
     width: 100%;
-    height: 200px;
+    height: 250px;
     margin: 20px 0px 20px 0px;
 }
 #slideimg{
@@ -100,15 +103,16 @@ body{
 
 #shoplove{
     display: flex;
-    
+    justify-content: space-between
 }
 #shoplove>div{
-    width: 35%;
     margin: auto;
 }
 #shoplove>div:nth-child(2){
     width: 200px;
-
+}
+#shoplove>div:nth-child(2)>a{
+    color: black;
 }
 #shoplove>div>img{
     display: block;
@@ -138,9 +142,7 @@ body{
     height: 300px;
 }
 .lineimg{
-    margin-top: 5px;
-    margin-left: 0px;
-    margin-right: 100px;
+    margin: auto;
 }
 #getitem{
     margin: 10px 0px 10px 0px;
@@ -158,7 +160,7 @@ body{
 }
 #flow{
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 #flow img{
     width: 100%;
