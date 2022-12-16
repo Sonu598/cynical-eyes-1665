@@ -7,7 +7,8 @@ body{
     width: 100%;
     height: auto;
     margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 #advertize{
     height: 30px;
@@ -101,7 +102,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
     margin: 10px 0px 20px 0px ;
     box-shadow : rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
