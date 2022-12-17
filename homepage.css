@@ -103,7 +103,8 @@ body{
 
 #shoplove{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 #shoplove>div{
     margin: auto;
@@ -115,6 +116,7 @@ body{
     color: black;
 }
 #shoplove>div>img{
+    width: 100%;
     display: block;
     margin: auto;
 }

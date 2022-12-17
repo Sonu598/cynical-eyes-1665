@@ -6,4 +6,5 @@ let obj={Useremail: form.email.value};
 button.addEventListener("click",() =>{
    LSdata.push(obj);
    localStorage.setItem("UserEmail",JSON.stringify(LSdata));
-})
+   window.open("/signup.html")
+});

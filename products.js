@@ -1,8 +1,8 @@
 let products=document.getElementById("products");
 let fechdata=[];
-fetch("https://63987ef4044fa481d69fb790.mockapi.io/products")
-.then((respons) =>{
-    return respons.json();
+fetch("https://fakestoreapi.com/products")
+.then((response) =>{
+    return response.json();
 })
 .then((acctualdata) =>{
     fechdata=acctualdata.data;
@@ -35,11 +35,11 @@ function displayproduct(data) {
                     break;
                 }
                 if (alreadybag===true) {
-                    alert("Added To Bag!");
+                    alert("Already in Bag!");
                 } else {
                     bagdata.push({...element,quantity:1});
                     localStorage.setItem("bag",JSON.stringify(bagdata));
-                    alert("Already in Bag!");
+                    alert("Added to Bag!");
                 }
             }
             card.append(img,name,price,description,addbag);
